@@ -5115,3 +5115,53 @@ footer a {
 /*Gradients*/
 .bg-gradient {
   background-image: radial-gradient(circle farthest-corner at 10% 20%, #ff97e0 0%, #ff31c2 90%); }
+
+
+  /* Include this style in your CSS file */
+.navbar {
+  font-family: 'K2D', sans-serif;
+  background-color: #ffffff; /* Assuming white background */
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Soft shadow for depth */
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: #333; /* Dark grey color for the brand */
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #555; /* Medium grey color for the links */
+}
+
+.nav-link:hover {
+  color: #7d62d9; /* A purple that matches the color scheme of the site */
+}
+
+/* Toggler icon when on mobile */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23555' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(85, 85, 85, 0.75)' stroke-width='2' linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+  }
+
+  .nav-item {
+    border-top: 1px solid #eeeeee;
+  }
+
+  .nav-link {
+    padding: .5rem 1rem;
+    color: #555;
+  }
+}
+
